@@ -234,11 +234,21 @@ footer {
   display: block;
   padding: 30px;
 }
+.watch-card {
+  display: flex;
+  flex-direction: column;
+  
+}
+
 .watch-card .card-text {
   color: #fff;
+  font-size: 21px;
+  
 }
-.watch-card-headline-svg {
-  height: 60px;
+.watch-card-headline-svg img {
+  height: 55px;
+  margin-top: 20px;
+  padding-top: 0;
 }
 .hero-text {
   font-size: 28px;
